@@ -1,0 +1,4 @@
+o ideal é nunca passar de 30 caracteres no nome das variaveis. 
+
+funcao number_format(nome_da_variavel,quantidade_casas_decimais "," , ".") essa função serve para formatar um numero para real. 
+
