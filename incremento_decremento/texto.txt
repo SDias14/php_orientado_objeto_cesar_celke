@@ -1,0 +1,3 @@
+operador de troca de sinal : - 
+operador de incremento : ++
+operador de decremento : --
