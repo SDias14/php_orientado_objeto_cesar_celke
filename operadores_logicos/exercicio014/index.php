@@ -15,7 +15,7 @@
 
 <div class="container text-center">
 
-<h3>Digite o total de Containers</h3>
+<h3>Digite o total de Containers(max.20)</h3>
 
 <form action="index.php" method="post">
     <input type="number" name="total" id="total" placeholder="Total de Containers">
@@ -25,26 +25,28 @@
 
 <?php
 
+echo "<h3>Quantidade lançada: </h3>" . $_POST['total'] . "<br><hr>";
+
+echo "<h3>Quantidade Restante: </h3>";
+
+$maxContainer = 20;
+
 if(isset($_POST['total'])){
-
     $total = $_POST['total'];
-
-    echo "<h3>Quantidade de containers: $total</h3>";
+    if($total > $maxContainer){
+        echo "<h5>O total de containers não pode ser maior que 20</h5>";
+    }else if ($total == $maxContainer){
+        echo "<h5>O total de containers está cheio</h5>";
+    } else if ($total < $maxContainer){
+        echo  ($maxContainer - $total) ;
+    }
 
 }
-
-echo "<h3>Verificação de 
-</h3>";
+        
 
 
     ?>
 
-  
-
-
-
-    
-   
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 
