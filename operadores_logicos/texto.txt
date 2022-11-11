@@ -1,0 +1,9 @@
+operadores logicos : 
+
+operador And ou E ou && : RETORNA TRUE SE AMBOS FOREM VERDADEIROS 
+
+operador Or ou OU ou || : RETORNA TRUE SE UM OU OUTRO FOREM VERDADEIROS. 
+
+operador Xor ou OU : RETORNA TRUE SE UM DELES FOR VERDADEIRO E NÃO AMBOS. 
+
+operador ! ou Não : Retorna TRUE SE O OPERADOR NÃO É VERDADEIRO
