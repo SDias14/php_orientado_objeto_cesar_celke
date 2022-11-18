@@ -1,0 +1,35 @@
+possibilitam monitorar o fluxo do programa. 
+
+o else so vai ser disparado quando a expressao if for falsa. 
+
+
+exercicio 22 
+
+aumento de salario = 1 variavel = salario 
+
+de acordo com o cargo = input cargo
+
+
+entrada de dado pelo usuario : 
+
+digitar o salario ou a opção de salario 
+digitar o codigo do cargo. 
+
+/////////
+
+processamento de dados 
+
+variavel de calculo para o novo salario 
+
+
+
+estrutura de decisão if e ifelse
+
+////
+
+saida de dados : 
+
+novo salario = 1 variavel 
+salario antigo = variavel ja existente 
+diferença dos dois salarios = 1 variavel 
+
