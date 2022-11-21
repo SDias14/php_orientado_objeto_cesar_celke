@@ -11,10 +11,12 @@ if ($a == 1) {
 }
 */
 
-$a = 5;
+$a = 4;
 
 if($a == 2){
     echo "Depositar o dinheiro. <br>";
+} else if ($a == 1) {
+    echo "Sacar o dinheiro. <br>";
 } else {
     echo "operação inválida. <br>";
 }

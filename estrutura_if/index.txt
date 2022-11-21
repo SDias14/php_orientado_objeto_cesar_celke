@@ -33,3 +33,40 @@ novo salario = 1 variavel
 salario antigo = variavel ja existente 
 diferença dos dois salarios = 1 variavel 
 
+
+else if :
+
+combinação do if e do else. 
+
+somente vai ser rodado se o if 1 nao for verdadeiro. 
+
+
+exercicio 24 
+
+receber nota = input (form)
+
+passar esse input para uma variavel , puxando ela com o metodo post. 
+
+processamento :
+
+if's aninhados , 
+
+para cada if precisa mostrar um output 
+
+input de dados = nota 
+processamento de dados = validação 
+output de dados = echo, mensagem. 
+
+
+ecercicio 24 
+
+form input type number 
+
+pegar a informação do input e jogar para o back fazer o processamento 
+
+entrada de dados - codigo , que vai ser armazenado numa variavel atraves de post. 
+
+processamento : if's aninhados 
+
+saida : mensagens. 
+
