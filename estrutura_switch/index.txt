@@ -1,0 +1,32 @@
+switch 
+
+switch compara uma variavel com diversos valores. 
+
+
+o switch trabalha melhor com uma variavel 
+
+agora o if e ifelse trabalha bem melhor com mais de duas. 
+
+exercicios : 
+
+26 - 
+
+entradas : 
+
+input codigo cargo 
+
+input salario 
+ 
+envio de informações metodo post 
+
+processamento : 
+
+atribuição de variaveis com os dados vindo do formulario 
+
+uso da estrutura switch  
+
+em cada caso fazer o salario vezes o percentual 
+
+saida : 
+
+echo cargo atual, salario antigo, o valor do aumento e o novo salario.  
