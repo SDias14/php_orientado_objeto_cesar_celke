@@ -1,0 +1,3 @@
+comando de repetição repete varias vezes ou até quando a condição for atendida. 
+
+while : para testar condição , se a condição for verdadeira ele executa ate se tornar falsa. 

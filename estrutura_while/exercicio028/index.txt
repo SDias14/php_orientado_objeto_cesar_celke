@@ -1,0 +1,7 @@
+entrada de dados : 
+
+colocar input para que o usuário digite um valor 
+
+//processamento 
+
+comparar o numero com ele mesmo 

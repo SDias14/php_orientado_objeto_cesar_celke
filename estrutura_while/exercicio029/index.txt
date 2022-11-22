@@ -1,0 +1,7 @@
+input de dois valores : 
+
+numero1 e numero2
+
+jogar as informações do formulario para as variaveis. 
+
+criar uma variavel de controle para o meio. 
