@@ -1,0 +1,7 @@
+entrada : 
+
+o programa vai ter uma entrada de dados(input) e depois vai jogar para uma variavel atraves de post 
+
+essa variavel vai ser a variavel de controle dentro do for. 
+
+usar função de data e hora 

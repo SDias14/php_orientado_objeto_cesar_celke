@@ -1,0 +1,3 @@
+do while - modo semelhante 
+
+a diferença é que os testes sao feitos no final da condição rodando pelo menos uma vez 

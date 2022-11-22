@@ -1,0 +1,16 @@
+estrutura for : 
+
+estrutura de repetição para saber quantas vezes um laço vai ser executado
+
+
+tres partes importantes tem o for. 
+
+1 - inicialização 
+2 - condição 
+3 - incremento 
+
+listar registros do banco de dados 
+
+for 
+
+

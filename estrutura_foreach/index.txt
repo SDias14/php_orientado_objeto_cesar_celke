@@ -1,0 +1,9 @@
+estrutura foreach 
+
+fornece um modo mais simples de navegar em arrays 
+
+o array é um conjunto ou estruturas de dados com varias informações 
+
+Foreach ($array as elemento){
+    <comandos>
+}

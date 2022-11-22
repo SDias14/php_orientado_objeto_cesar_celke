@@ -1,0 +1,7 @@
+exercicio 34 
+
+1° passo - criar um array de numeros
+
+2º passo - somar as notas e dividi-los pelo numero de notas. 
+
+3° imprimir na tela. 
