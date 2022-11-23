@@ -1,0 +1,1 @@
+são uteis para deixar o codigo mais modular e organizado e evita repetição de codigo 

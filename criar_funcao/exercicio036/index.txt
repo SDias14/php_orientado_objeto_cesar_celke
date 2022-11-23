@@ -1,0 +1,3 @@
+input com codigo - entrada de dados. 
+
+enviando esses dados para serem processados pelo php. 
