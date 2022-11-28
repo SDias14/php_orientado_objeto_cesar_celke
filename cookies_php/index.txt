@@ -1,0 +1,11 @@
+cookies sao arquivos de texto que sao criados no navegador dos usuarios para salvar e recuperar dados de qualquer pagina do site. 
+
+locais da utilização do cookie 
+
+verificar se o usuario ja logou no site 
+
+verificar se um usuario ja votou na enquete do site. 
+
+carrinho de compras para armazenar os produtos colocados no carrinho de compras. 
+
+criar cookie : setcookie("nome_do_cookie", "valor_do_cookie");

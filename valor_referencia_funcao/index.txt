@@ -1,0 +1,4 @@
+passagem de parametros por valor e referencia numa funcao
+
+
+a passagem de parametros por valor, caso o conteudo da variavel seja modificado nao afeta a variavel original. A passagem por referencia altera o valor. 

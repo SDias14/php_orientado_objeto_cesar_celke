@@ -1,0 +1,4 @@
+sessao é um recurso php que permite salvar varios valores (variaveis) para serem usados ao longo da visita do usuario 
+
+quando fecha o navegador a sessao é encerrada
+

@@ -1,0 +1,11 @@
+teremos uma função lucro 
+
+1 - variavel custo de produção 
+
+2 - criar função 
+
+processamento dentro da função 
+
+porcentagem mais o valor do custo de produção 
+
+impressão do valor fora. 

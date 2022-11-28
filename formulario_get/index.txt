@@ -1,0 +1,5 @@
+duas formas de passar informações para formulário : get e post. 
+
+get : dados sao enviados pela url 
+
+post : atraves do corpo da mensagem enviada ao servidor. 

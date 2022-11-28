@@ -1,0 +1,2 @@
+são funções que chamam a si mesmas 
+

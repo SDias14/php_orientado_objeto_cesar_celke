@@ -1,0 +1,40 @@
+cada safra precisa ser calculada 
+
+total de metros cubicos gastos em 12 meses. 
+
+custo em reais de cada safra 
+
+custo total das safras em 12 meses 
+
+custo tal das safras em 60 meses 
+
+hectares : 1287 
+
+quantidade de safras em 12 meses : 3 
+
+quantidade de agua gasta em cada safra por hectare : 5267 m³. 
+
+custo de implantação nos 12 meses iniciais por hectare : 1000 reais 
+
+
+entrada de dados : 
+
+criação de variaveis 
+
+funcao custoSafra
+
+parametro de referencia custo Implantação. 
+
+parametros por valor : area em hectares, m³ gastos de agua por hectare e o custo cubico. 
+
+calculo na função : calculo de quantidade de m³ de agua gasto na safra e custo de irrigação . 
+
+saida - imprime quantidade de m³ gastis na safra e o valor gasto em irrigação na safra 
+
+retorno , quantidade de m³ gasto de agua 
+
+depois de 3 safras necessario imprimir a quantidade de m³ gasto de agua no ano . 
+
+custo das 3 safras no ano 
+
+custo dos 5 anos. 
