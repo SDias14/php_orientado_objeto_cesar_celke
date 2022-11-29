@@ -1,0 +1,8 @@
+post - dados enviados atraves do corpo da mensagem 
+
+
+Boa tarde Rogerio,
+
+Padrão recomendando atualmente.
+Utilizar o filter_input além de receber os dados do formulário possui a possibilidade de filtrar.
+O $_POST puro não possui filtro para os dados, deixando brecha para usuários maliciosos atacarem o sistema.
