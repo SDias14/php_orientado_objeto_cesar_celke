@@ -1,0 +1,1 @@
+a chave primaria identifica cada registro da tabela. cada tabela pode ter apenas uma chave primaria

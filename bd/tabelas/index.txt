@@ -1,0 +1,40 @@
+tabelas : é um objeto no banco de dados que é utilizado para guardar dados sobre um assunto especifico, po exemplo, usuarios, produtos, etc. 
+
+consiste em registros e colunas. 
+
+instrução para criar tabela : 
+
+create table , nunca caracteres especiais . colocar o nome da tabela sempre no plural. 
+
+sempre a coluna deve ser separada por uma virgula.
+
+excluir tabelas 
+
+novo comando aprendido 
+
+drop table if exists
+
+
+comandos para acessa o banco pela linha de comandos
+
+Microsoft Windows [versão 10.0.19044.1706]
+(c) Microsoft Corporation. Todos os direitos reservados.
+
+C:\WINDOWS\system32>cd C:\xampp\mysql\bin
+
+C:\xampp\mysql\bin>mysql -h localhost -u root -p
+Enter password:
+Welcome to the MariaDB monitor.  Commands end with ; or \g.
+Your MariaDB connection id is 322
+Server version: 10.4.25-MariaDB mariadb.org binary distribution
+
+Copyright (c) 2000, 2018, Oracle, MariaDB Corporation Ab and others.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+MariaDB [(none)]>
+
+
+C:\xampp\mysql\bin>mysql -h localhost -u root 
+
+pasta onde está o binario do mysql , depois as informações de host , usuario e senha 

@@ -1,0 +1,13 @@
+sem caracteres especiais no nome do banco de dados. tudo em minusculo. colocar um nome diferente no banco. nao colocar o nome do projeto. 
+
+
+mb4 - salva com caracteres especiais
+
+unicode - nao salva com caracteres especiais
+
+
+formato recomendado para o banco 
+
+utf8mb4 unicode ci
+
+para trabalhar com banco de dados e chaves primarias e secundarias o motor usado dever ser Innodb

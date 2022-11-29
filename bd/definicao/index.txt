@@ -1,0 +1,5 @@
+banco de dados é uma coleção organizada de informações ou dados estruturados armazenados em um siste. 
+
+a linguagem sql é usada para se trabalhar com o banco 
+
+mysql - sistema de gerenciamento de banco de dados. 
