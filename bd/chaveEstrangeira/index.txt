@@ -1,3 +1,6 @@
 uma chave estrangeira contem valores que correspondem aos valores na chave primaria de outra tabela 
 
 pode ter uma ou mais chave estrangeira
+
+nao é recomendado reaproveitamento de id, pois pode gerar conflito se quisermos atualizar ou deletar um registro.
+
