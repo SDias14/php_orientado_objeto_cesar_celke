@@ -1,0 +1,5 @@
+terceira forma normal
+
+quando atende todos os requisitos da primeira e da segunda forma normal e todos os campos dependem da chave. 
+
+eliminar os campos que nao dependem da chave

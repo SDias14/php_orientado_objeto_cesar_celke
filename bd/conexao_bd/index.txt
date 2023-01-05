@@ -1,0 +1,12 @@
+como conectar o php ao banco de dados :
+
+utilizando a biblioteca pdo 
+
+$conn = new pdo(
+    "mysql: host = servidorName;
+    port = PORTA;
+    dbname="
+    baseDeDados,
+    usuario,
+    senha
+    );
