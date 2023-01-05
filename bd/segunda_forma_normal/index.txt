@@ -1,0 +1,3 @@
+o banco está normalizado na primeira forma normal quando ele ja esta na primeira forma norma e se os registros na tabela depender da chave primaria em sua totalidade
+
+quando nao depende ou o mesmo valor é aplicado para varios registros, necessario criar uma tabela separada. 
