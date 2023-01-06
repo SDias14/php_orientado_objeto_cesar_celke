@@ -1,12 +1,23 @@
-como conectar o php ao banco de dados :
+usando o select :
 
-utilizando a biblioteca pdo 
+fazendo o famoso crud , 
 
-$conn = new pdo(
-    "mysql: host = servidorName;
-    port = PORTA;
-    dbname="
-    baseDeDados,
-    usuario,
-    senha
-    );
+listar registros do banco de dados. 
+
+
+requisição cliente -> servidor -> pagina php -> biblioteca pdo -> comando sql -> acesso ao banco de dados -> retorno informações.
+
+selecionar registros no banco de dados: 
+
+comando select 
+
+esse comando é para exibir um ou mais registros de tabelas 
+
+$result_user = "SELECT * FROM usuarios"; // retorna todas as colunas de usuarios(asterisco é todas.)
+
+$resultado_user = $conn->prepare($result_user);
+
+// pego a variavel conexao que tem o banco de dados, instancio com prepare e preparo a query que esta dentro da variavel result_user
+
+
+$resultado_user->execute(); // instanciar a funcao execute
