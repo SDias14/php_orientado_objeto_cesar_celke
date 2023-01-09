@@ -1,0 +1,3 @@
+clausula where.
+
+a clausula where é usada para extrair somente os registros que satisfaçam um critério especificado.

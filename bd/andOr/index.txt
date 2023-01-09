@@ -1,0 +1,1 @@
+and e or sao operados usados para filtrar registros com uma ou mais condições.

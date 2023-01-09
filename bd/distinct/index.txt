@@ -1,0 +1,1 @@
+a instrução select distinct é usada para retornar apenas valores distintos(diferentes)

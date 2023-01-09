@@ -1,0 +1,12 @@
+limit é uma clausula de limite que é usado para especificar o numero de registros  a serem retornados. 
+
+select *from nome_tabela LIMIT 30 
+
+PARA SELECIONAR OS REGISTROS 3-15? PODE SER USADO O OFFSET
+
+SELECT * FROM ORDERS  LIMIT 3 OFFSET 15
+
+
+boa pratica para trabalhar com limit: no maximo 100 registros por pagina
+
+o certo é 40.
