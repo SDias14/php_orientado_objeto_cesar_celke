@@ -1,0 +1,7 @@
+insert into : 
+
+a instução insert into é utilizada para inserir novos registros em uma tabela. 
+
+a mesma ordem das colunas devem ser a ordem dos valores e essa ordem deve seguir a ordem que esta na tabela do banco de dados. 
+
+
