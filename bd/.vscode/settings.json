@@ -1,0 +1,4 @@
+{
+    "vsintellicode.features.python.deepLearning": "enabled",
+    "php.validate.enable": true
+}
