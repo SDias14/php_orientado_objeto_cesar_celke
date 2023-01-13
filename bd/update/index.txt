@@ -1,0 +1,2 @@
+update: é utilizado para atualizar registros no banco de dados
+

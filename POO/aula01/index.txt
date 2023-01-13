@@ -1,0 +1,11 @@
+php orientado a objetos 
+
+programacao orientada a objetos é um estilo de programação que permite os desenvolvedores agruparem tarefas semelhantes em classes 
+
+em vez de construir um sistema formado por um conjunto de procedimentos sequenciais. lidamos com objetos , estruturas que fazem parte do nosso dia a dia , sendo pessoa carro, etc.
+
+atributos do carro :  modelo , ano , fabricante
+
+metodos : ações , funções, locomover ... 
+
+classes : são modelos de objetos , são como moldes para a criação de objetos
