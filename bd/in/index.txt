@@ -1,0 +1,1 @@
+o operador in permite especificar varios valores em uma clausula where. ele é uma abreviatura para multiplas condições or. 

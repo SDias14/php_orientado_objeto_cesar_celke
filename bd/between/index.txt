@@ -1,0 +1,1 @@
+o operador between é utilizado para selecionar valores dentro de um intervalo.
