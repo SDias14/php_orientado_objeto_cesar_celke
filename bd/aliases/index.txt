@@ -1,0 +1,5 @@
+alias no sql sao usados para fornecer para a tabela , ou para a coluna, um nome temporario 
+
+os alias sao frequentemente usados para tornar os comandos sql mais legiveis
+
+um alias so existe durante a execucao do comando sql
