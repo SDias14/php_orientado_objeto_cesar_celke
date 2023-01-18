@@ -1,0 +1,2 @@
+group by é usado para agrupar linhas baseado em semelhanças entre elas.
+

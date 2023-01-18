@@ -1,0 +1,5 @@
+right join retorna todos os dados encontrados na tabela à direita de join . Caso nao existam dados associados entre as tabelas a esquerda e a direita de join , serao retornados valores nulos. 
+
+inner join = tabela principal e secundarias precisam ter valores obrigatorios iguais para retornar valor
+left join = tem que existir valores obrigatorios na tabela principal mas nao necessita ter na tabela secundaria
+inner join = pode existir ou nao valores na tabela principal e tem que existir na tabela secundaria.
