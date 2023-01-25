@@ -25,7 +25,7 @@ include_once "conexao.php";
        // var_dump($dados);
       
       $query_up_usuario = "UPDATE usuarios 
-         SET nome = :nome , email = :email, senha = :senha, sit_usuario_id = :sit_usuario_id, nivel_acesso_id = :nivel_acesso_id, modified = NOW()
+         SET nome = :nome , email = :email, senha = :senha, sists_usuario_id = :sists_usuario_id, niveis_acesso_id = :niveis_acesso_id, modified = NOW()
          WHERE id = :id ";
 
       $up_usuario = $conn->prepare($query_up_usuario);   
@@ -33,8 +33,8 @@ include_once "conexao.php";
       $up_usuario->bindParam(':email', $dados['email'], PDO::PARAM_STR);
         $senha_cript = password_hash($dados['senha'], PASSWORD_DEFAULT);
       $up_usuario->bindParam(':senha', $senha_cript, PDO::PARAM_STR);
-      $up_usuario->bindParam(':sit_usuario_id', $dados['sit_usuario_id'], PDO::PARAM_INT);
-      $up_usuario->bindParam(':nivel_acesso_id', $dados['nivel_acesso_id'], PDO::PARAM_INT);
+      $up_usuario->bindParam(':sists_usuario_id', $dados['sists_usuario_id'], PDO::PARAM_INT);
+      $up_usuario->bindParam(':niveis_acesso_id', $dados['niveis_acesso_id'], PDO::PARAM_INT);
       $up_usuario->bindParam(':id', $dados['id'], PDO::PARAM_INT);
 
         if ($up_usuario->execute()) {
@@ -51,7 +51,7 @@ include_once "conexao.php";
 
     $id = filter_input(INPUT_GET, 'id_usuario', FILTER_SANITIZE_NUMBER_INT);
 
-    $query_usuario = "SELECT id, nome, email, senha,sit_usuario_id, nivel_acesso_id 
+    $query_usuario = "SELECT id, nome, email, senha,sists_usuario_id, niveis_acesso_id 
     FROM usuarios 
     WHERE id = :id 
     LIMIT 1";
@@ -134,16 +134,16 @@ if(isset($row_usuario['id'])){
 
      <?php
 
-$sit_usuario_id= "";
+$sists_usuario_id= "";
 
-if(isset($row_usuario['sit_usuario_id'])){
-    $sit_usuario_id = $row_usuario['sit_usuario_id'];
+if(isset($row_usuario['sists_usuario_id'])){
+    $sists_usuario_id = $row_usuario['sists_usuario_id'];
 }
 
 ?>
 
     <label> Situação do usuario </label>
-    <input type="number" name="sit_usuario_id" placeholder="Situação do usuario" value="<?php echo $sit_usuario_id?>" required/><br><br>
+    <input type="number" name="sists_usuario_id" placeholder="Situação do usuario" value="<?php echo $sists_usuario_id?>" required/><br><br>
 
 
     <!-- fim sit_usuario -->
@@ -152,16 +152,16 @@ if(isset($row_usuario['sit_usuario_id'])){
 
     <?php
 
-$nivel_acesso_id= "";
+$niveis_acesso_id= "";
 
 if(isset($row_usuario['nivel_acesso_id'])){
-    $nivel_acesso_id = $row_usuario['nivel_acesso_id'];
+    $niveis_acesso_id = $row_usuario['niveis_acesso_id'];
 }
 
 ?>
 
     <label> Nivel de acesso </label>
-    <input type="number" name="nivel_acesso_id" placeholder="Nivel de acesso" value="<?php echo $nivel_acesso_id?>" required/><br><br>
+    <input type="number" name="niveis_acesso_id" placeholder="Nivel de acesso" value="<?php echo $niveis_acesso_id?>" required/><br><br>
 
     <input type="submit" value="Salvar" name="sendUpUsuario"><br><br>
 

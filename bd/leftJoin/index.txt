@@ -1,0 +1,1 @@
+left join é parecido com o inner join e permite obter nao apenas os dados relacionais de duas tabelas como tambem os daos nao relacionais. 

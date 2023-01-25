@@ -1,0 +1,5 @@
+função count = retorna o numero  de linhas da pesquisa 
+
+funcao sum = retorna a soma total de uma coluna numerica
+
+funcao avg retorna o valor medio de uma coluna numerica. 
