@@ -1,0 +1,7 @@
+como usar classes e objetos no php.
+
+classe: é uma estrutura ou esqueleto, molde, que abstrai um conjunto de objetos contendo caracteristicas similares. uma determinada classe define o comportamento de seus objetos usando metodos e modificando seus estados como os atributos 
+
+projeto composto por codigo de programacao. quando executado origina um objeto.
+
+quando executo a classe eu origina um obj

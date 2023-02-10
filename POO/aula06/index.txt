@@ -1,0 +1,3 @@
+classe abstrata no php 
+
+Classes abstratas sao modelos que nunca podem ser instanciados. Necessario criar a classe filha para herda-la. 

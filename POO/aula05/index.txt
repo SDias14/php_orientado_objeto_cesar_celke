@@ -1,0 +1,11 @@
+herança em php 
+
+representa uma das principais caracteristicas da orientação a objeto, 
+
+atraves do conceito, conseguimos implementar classes de uso geral. 
+
+essas classes poderao ser estendidas por outras , produzindo assim, classes mais especializadas. 
+
+atraves da herança , poderemos utilizar propriedades e metodos definidos na superclasse 
+
+o  conceito de subclasse é o da especialização, isto é, a subclasse possui todas as caracteristicas e funcionalidades da superclasse e agora irá definir um outro conjunto de funções e propriedades a fim de especializar alguma funcionalidade. 
