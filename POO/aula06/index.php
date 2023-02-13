@@ -9,47 +9,42 @@
 <body>
     <?php
 
-    require './Cliente.php';
-    require './ClientePessoaFisica.php';
-    require './ClientePessoaJuridica.php';
+    require './Cheque.php';
+    require './ChequeComum.php';
+    require './ChequeEspecial.php';
 
-    $cliente1 = new Cliente(); // classe pai 
+   
+//////////////////////////////////////////////////////////////////////////////////////
+   $cheque2 = new ChequeComum(10000, "Comum");  
+    
+   $msg = $cheque2->calcularJuros();
 
-    $cliente1->logradouro = 'Rua 1';
-    $cliente1->bairro = 'Bairro 1';
+    echo $msg;
 
-    $endereço = $cliente1->verEndereco();
+   
 
-    echo $endereço;
-    echo "<hr>";
 
-    $cliente2 = new ClientePessoaFisica(); // classe filha
 
-    $cliente2->logradouro = 'Rua 2';
-    $cliente2->bairro = 'Bairro 2';
-    $cliente2->nome = 'João';
-    $cliente2->cpf = 12394443300;
 
-    $endereco = $cliente2->verInformacaoUsuario();
 
-    echo $endereco;
-    echo "<hr>";
 
-    $cliente3 = new ClientePessoaJuridica(); // classe filha
+   
 
-    $cliente3->cnpj = 134435435435;
-    $cliente3->nomeFantasia = 'Empresa 1';
-    $cliente3->logradouro = 'Rua 3';
-    $cliente3->bairro = 'Bairro 3';
-
-    $endereco = $cliente3->verInformacaoEmpresa();
-
-    echo $endereco;
-    echo "<hr>";
- 
     
 
-    
+
+/////////////////////////////////////////////////////////////////////////////////////
+
+   $cheque3 = new ChequeEspecial(10000, "Especial");
+
+    $msg = $cheque3->calcularJuros();
+
+    echo $msg;
+
+
+   
+
+
 
 
      ?>

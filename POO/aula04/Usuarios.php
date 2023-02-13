@@ -15,6 +15,8 @@ class Usuarios{
 
          $result_usuarios->execute();
          return $result_usuarios->fetchAll(PDO::FETCH_ASSOC);
+
+         
         
     }
 }

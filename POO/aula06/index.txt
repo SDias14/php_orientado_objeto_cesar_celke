@@ -1,3 +1,5 @@
 classe abstrata no php 
 
 Classes abstratas sao modelos que nunca podem ser instanciados. Necessario criar a classe filha para herda-la. 
+
+um dos usos da classe abstrata é na classe conexao, onde vc cria uma classe abstrata conexao, e cria uma classe filha para cada banco de dados, e assim vc pode criar uma conexao com qualquer banco de dados, sem precisar alterar o codigo.
