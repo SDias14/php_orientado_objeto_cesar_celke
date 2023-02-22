@@ -1,0 +1,5 @@
+interface - interface de objetos permitem a criação de codigos que especificam quais metodos uma classe deve implementar, sem definir como esses metodos serão tratados. 
+
+interfaces sao definidas da mesma forma que classes , mas com a palavra chave interface no lugar de class e com nenhum de seus metodos definidos. 
+
+todos os metodos declarados em uma interface devem ser publicos , essa é a natureza de uma interface. 

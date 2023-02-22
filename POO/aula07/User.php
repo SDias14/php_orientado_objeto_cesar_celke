@@ -6,21 +6,22 @@ class User extends Conn
    public object $conn;
 
    public array $formData;
+   public int $id;
 
    //metodo para listar um usuario 
 
    public function list():array{
          $this->conn = $this->connectDb();
 
-         $query_users = "SELECT id, nome, email FROM usuarios
+         $queryUsers = "SELECT id, nome, email FROM usuarios
          ORDER BY id DESC
          LIMIT 40";
 
-         $query_result = $this->conn->prepare($query_users);
+         $queryResult = $this->conn->prepare($queryUsers);
 
-         $query_result->execute();
+         $queryResult->execute();
 
-        $retorno = $query_result->fetchAll(PDO::FETCH_ASSOC);
+        $retorno = $queryResult->fetchAll(PDO::FETCH_ASSOC);
 
         return $retorno;
 
@@ -31,29 +32,83 @@ class User extends Conn
 public function create(){
       $this->conn = $this->connectDb();
 
-      $query_user = "INSERT INTO usuarios (nome, email , created) VALUES (:nome, :email, NOW())";
+      $queryUser = "INSERT INTO usuarios (nome, email , created) VALUES (:nome, :email, NOW())";
 
-      $add_user = $this->conn->prepare($query_user);
-      $add_user->bindParam(':nome', $this->formData['nome']);
-      $add_user->bindParam(':email', $this->formData['email']);
-      $add_user->execute();
+      $addUser = $this->conn->prepare($queryUser);
+      $addUser->bindParam(':nome', $this->formData['nome']);
+      $addUser->bindParam(':email', $this->formData['email']);
+      $addUser->execute();
 
-      if($add_user->rowCount() > 0){
+      if($addUser->rowCount() > 0){
          return true;
-      }else{
-            return false;
-            }
-
-
-
-
-
- 
+      } return false;
+            
 }
+
+public function view(){
+     $this->conn = $this->connectDb();
+
+      $queryUser = "SELECT id, nome, email, created, modified 
+      FROM usuarios 
+      WHERE id = :id
+      LIMIT 1";
+
+      $resultUsuario = $this->conn->prepare($queryUser);
+
+      $resultUsuario->bindParam(':id', $this->id);
+
+      $resultUsuario->execute();
+
+      $value = $resultUsuario->fetch();
+
+      return $value;
+
+
+
 
    
 
     
+
+}
+
+public function edit(){
+      //var_dump($this->formData);
+      $this->conn = $this->connectDb();
+      $query_user = "UPDATE usuarios SET nome = :nome, email = :email, modified = NOW() WHERE id = :id";
+
+      $edit_user = $this->conn->prepare($query_user);
+
+      $edit_user->bindParam(':nome', $this->formData['nome']);
+      $edit_user->bindParam(':email', $this->formData['email']);
+      $edit_user->bindParam(':id', $this->formData['id']);
+
+      $edit_user->execute();
+
+      if($edit_user->rowCount() > 0){
+         return true;
+      }
+      return false;
+}
+
+
+public function delete(){
+      $this->conn = $this->connectDb();
+
+      $queryUser = "DELETE FROM usuarios WHERE id = :id LIMIT 1";
+
+      $deleteUser = $this->conn->prepare($queryUser);
+
+      $deleteUser->bindParam(':id', $this->id);
+
+      $deleteUser->execute();
+
+      if($deleteUser->rowCount() > 0){
+         return true;
+      }
+            return false;
+            
+      }
 
 }
 

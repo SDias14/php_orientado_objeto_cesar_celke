@@ -1,0 +1,3 @@
+classe final - é uma classe que nao pode ser herdada pelas classes filhas 
+
+metodo final - quando definimos um metodo final quer dizer que nao conseguimos instanciar esse metodo em outras classes filhas. 

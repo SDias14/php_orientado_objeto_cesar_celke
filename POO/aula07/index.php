@@ -51,6 +51,9 @@ foreach ($resultUsers as $row_user) {
     echo "Nome: " . $nome . "<br>";
     echo "Email: " . $email . "<br>";
 
+    echo "<a href='view.php?id=$id'>Visualizar</a><br>";
+    echo "<a href='edit.php?id=$id'>Editar</a><br>";
+    echo "<a href='delete.php?id=$id'>Apagar</a><br>";
     echo "<hr>";
 
 }
