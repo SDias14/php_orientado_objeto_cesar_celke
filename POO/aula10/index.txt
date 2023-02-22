@@ -1,0 +1,3 @@
+metodo estatico nao pode usar nenhum atributo do objeto. Metodos estaticos sao acessiveis sem a necessidade de instanciar a classe 
+
+atributos estaticos nao pode ser instanciados com ->. e pode ser acessado sem a necessidade de instanciar a classe
