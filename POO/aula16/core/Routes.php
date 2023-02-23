@@ -5,7 +5,7 @@ namespace Core; // namespace do core :  serve para definição de escopo para cl
 
 
 
-class ConfigController{
+class Routes{
 
     private string $url; // vai receber a url
     private string $urlController; // vai receber o controller
