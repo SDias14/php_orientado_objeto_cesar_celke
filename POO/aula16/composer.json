@@ -1,0 +1,14 @@
+{
+    "description": "Celke Projeto PHP OO", 
+    "authors": [{
+        "name": "Celke", 
+        "email": "celke@celke.net"
+    }],
+    "autoload": {
+        "psr-4": {
+            "Sts\\":"App/sts",
+            "Core\\":"core"
+        }
+    }, 
+    "require": {}
+}

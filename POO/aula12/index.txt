@@ -1,0 +1,3 @@
+metodo ou atributo privado : somente a classe pode acessar 
+
+modificador de acesso : private 

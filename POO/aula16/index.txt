@@ -1,0 +1,7 @@
+para trabalhar com o mvc vamos usar a ferramenta do composer
+
+composer :  o composer é uma ferramenta de linha de comando para gerenciar dependências em projetos PHP. Ele permite que você declare as dependências do seu projeto e ele vai gerenciar (instalar ou atualizar) as dependências para você.
+
+as paginas vao ficar no controller, e o controller vai chamar a view
+
+o core é responsavel por carregar as classes e os controllers. 

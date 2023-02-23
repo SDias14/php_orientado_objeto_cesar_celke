@@ -1,0 +1,7 @@
+padrao mvc (pode ser considerado um design pattern)
+
+controller : o usuario faz uma requisicao e o controller recebe essa requisicao e faz o tratamento dela, ele pode fazer a chamada de uma view ou de um model
+
+model : responsavel por fazer a manipulacao dos dados, ele pode ser um objeto ou uma classe
+
+o controller instancia uma model , faz a manipulacao dos dados e retorna para o controller. o controller pode fazer a chamada de uma view e passar os dados para ela

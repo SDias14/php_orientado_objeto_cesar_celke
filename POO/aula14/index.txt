@@ -1,0 +1,3 @@
+documentação de projeto no php. 
+
+para documentar o codigo podemos usar o docblockr

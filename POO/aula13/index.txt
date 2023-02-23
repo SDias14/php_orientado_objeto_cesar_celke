@@ -1,0 +1,3 @@
+metodo ou atributo protegido : somente a propria classe e as classes que herdam dela podem acessar o atributo ou metodo. 
+
+modificador de acesso : protected;

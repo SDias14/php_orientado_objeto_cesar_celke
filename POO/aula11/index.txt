@@ -1,0 +1,6 @@
+metodo ou atributo publico pode ser acessado em qualquer parte do codigo ou por outras classes 
+
+modificador public : publico
+
+no der para indicar que um atributo é publico colocamos o sinal de + . 
+
