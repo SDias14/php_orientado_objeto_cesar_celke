@@ -11,7 +11,9 @@
  
     require './vendor/autoload.php'; // o composer vai ser responsavel por carregar as classes automaticamente
 
-   $url = new Core\ConfigController(); // o core vai ser carregado automaticamente
+     $url = new Core\ConfigController(); // o core vai ser carregado automaticamente
+
+        $url->loadPage(); // vai carregar a pagina
 
     ?>
     
